@@ -1,0 +1,28 @@
+h1{
+    color: rgb(102, 0, 0);
+    border:  solid red;
+}
+h2{
+    color: rgb(68, 68, 68);
+    border:  dotted white;
+}
+ul{
+    color: #0c8d00;
+}
+body{
+    background-color: black;
+}
+
+
+li{
+    color: blueviolet;
+}
+
+th{
+    color: aliceblue;
+    border: dashed cyan;
+}
+td{
+    color: #0c8d00;
+    border: solid white;
+}
