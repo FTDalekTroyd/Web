@@ -1,6 +1,7 @@
 h1{
     color: rgb(102, 0, 0);
     border:  solid red;
+    text-shadow: white;
 }
 h2{
     color: rgb(68, 68, 68);
@@ -10,12 +11,18 @@ ul{
     color: #0c8d00;
 }
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    background-image:  url(FTDalekTroyd.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 
 li{
     color: blueviolet;
+    border: solid rgba(255, 0, 0, 0.486);
+    border-radius: 10px ;
 }
 
 th{
