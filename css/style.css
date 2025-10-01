@@ -1,11 +1,15 @@
-h1{
+/* h1{
     color: rgb(102, 0, 0);
-    border:  solid red;
-    text-shadow: white;
+    border:  solid rgb(255, 0, 0);
+    margin-right:  50px;
+    padding: 50px;
 }
+    
+    
 h2{
     color: rgb(68, 68, 68);
-    border:  dotted white;
+    border:double white;
+    padding: 20px;
 }
 ul{
     color: #0c8d00;
@@ -20,8 +24,8 @@ body{
 
 
 li{
-    color: blueviolet;
-    border: solid rgba(255, 0, 0, 0.486);
+    color: rgb(255, 255, 255);
+    border: solid rgba(255, 0, 0, 0.158);
     border-radius: 10px ;
 }
 
@@ -32,4 +36,44 @@ th{
 td{
     color: #0c8d00;
     border: solid white;
+}
+.main
+{
+    color: aliceblue;
+}
+.side
+{
+    color: red;
+} */
+
+h1
+{
+    size: 20px;
+    margin: 10px;
+border: ridge cyan;
+ display: block;
+    margin: 60px;
+    height: 200px;
+    text-align: center;
+    width: 20; height: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.name
+{
+      padding: 10px;
+    color: darkred;
+    font-size: 10px;
+   text-align: left;
+     border: ridge aquamarine;
+     width:fit-content;
+}
+.inf
+{
+    margin: 10px;
+    color: darkblue;
+    font-size: 10px;
+    padding: 10px;
+    border: ridge rgba(255, 0, 0, 0.363);
+    background-color: rgb(207, 243, 0);
 }
