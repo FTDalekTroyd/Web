@@ -46,7 +46,7 @@ td{
     color: red;
 } */
 
-h1
+/* h1
 {
     size: 20px;
     margin: 10px;
@@ -76,4 +76,34 @@ border: ridge cyan;
     padding: 10px;
     border: ridge rgba(255, 0, 0, 0.363);
     background-color: rgb(207, 243, 0);
+} */
+/* body
+{
+     background-repeat: no-repeat;
+    background-color: antiquewhite;
+   background-position-x: center;
+    background-size:cover;
+    background-position-y:-4cm;
+    background-image: url(Untitled1.png);
+}
+
+h1
+{
+text-align: center;
+font-size: 50px;
+}
+h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+h3
+{
+    text-align: center;
+    font-size: 40px ;
+} */
+
+.hi
+{
+   font-size: 300px;
 }
