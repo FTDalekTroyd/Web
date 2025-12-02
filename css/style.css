@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 h1{
     color: rgb(102, 0, 0);
     border:  solid red;
@@ -8,40 +8,26 @@ h2{
     color: rgb(68, 68, 68);
     border:  dotted white;
 }
-ul{
-    color: #0c8d00;
-}
+
 body{
     background-color: rgb(0, 0, 0);
     background-image:  url(FTDalekTroyd.jpg) ;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
 
-
-li{
-    color: blueviolet;
-    border: solid rgba(255, 0, 0, 0.486);
-    border-radius: 10px ;
+p
+{
+border: solid red;
 }
-
-th{
-    color: aliceblue;
-    border: dashed cyan;
-}
-td{
-    color: #0c8d00;
-    border: solid white;
-=======
-
 h1:hover
 { 
     color: red;
 }
 h1
 {
-color: rgb(0, 0, 0);
+color: rgb(97, 97, 97);
 transition: color 1s;
 }
 body
@@ -60,7 +46,7 @@ transition: 1s;
 }
 input[type=button]
 {
-    color:  rgb(80, 80,80);
+    color:  rgb(0, 0, 0);
     background-color: rgb(80, 80,80);
     box-shadow: 0 4px 6px  rgb(80, 80,80) ;
     
@@ -86,5 +72,14 @@ link:hover
 {
 color: red;
 transition: 1s;
->>>>>>> Stashed changes
+
+}
+p:hover
+{
+    color: red;
+    transition: 1s;
+}
+p
+{
+    color:rgb(80, 80, 80);
 }
