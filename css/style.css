@@ -9,6 +9,8 @@ h2{
     color: rgb(80, 80, 80);
     border:  dotted white;
     text-align: center;
+     font-family: "Courier Prime", monospace;
+     transition: 1s;
 }
 
 body
@@ -21,33 +23,25 @@ body
  
 }
 
-p
-{
-border: solid red;
-}
+
 h1:hover
 { 
     color: red;
+   
 }
 h1
 {
 color: rgb(80, 80,80);
 transition: color 1s;
+ font-family: "Courier Prime", monospace;
 }
-body
-{
-    background-color: rgb(80, 80, 80);
-}
+
 
 h2:hover
 {
     color: red;
 }
-h2
-{
-color: rgb(80, 80,80);
-transition: 1s;
-}
+
 /* button
 {
     color:  rgb(255, 0, 0);
@@ -99,10 +93,14 @@ p:hover
 {
     color: red;
     transition: 1s;
+  
 }
 p
 {
     color:rgb(80, 80, 80);
+     font-family: "Courier Prime", monospace;
+     font-weight: 700;
+     border: solid red;
 }
 
 a:focus
@@ -121,7 +119,7 @@ a:hover
 h3
 {
 color: rgb(80, 80, 80);
-
+ font-family: "Courier Prime", monospace;
 }
 
 h3:hover
