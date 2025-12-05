@@ -11,11 +11,13 @@ h2{
     text-align: center;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-    background-image:  url(images/FTDalekTroyd.jpg) ;
+body
+{
+    background: linear-gradient(rgb(0, 0, 0), rgb(95, 0, 0), rgb(139, 0, 0));
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
  
 }
 
