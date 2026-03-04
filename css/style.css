@@ -1,49 +1,47 @@
 
 h1{
     color: rgb(102, 0, 0);
-    border:  solid red;
+    border:  ridge red;
     text-shadow: white;
+    text-align: center;
 }
 h2{
-    color: rgb(68, 68, 68);
+    color: rgb(80, 80, 80);
     border:  dotted white;
+    text-align: center;
+     font-family: "Courier Prime", monospace;
+     transition: 1s;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-    background-image:  url(FTDalekTroyd.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-p
+body
 {
-border: solid red;
+    background: linear-gradient(rgb(0, 0, 0), rgb(95, 0, 0), rgb(139, 0, 0));
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+ 
 }
+
+
 h1:hover
 { 
     color: red;
+   
 }
 h1
 {
-color: rgb(97, 97, 97);
+color: rgb(80, 80,80);
 transition: color 1s;
+ font-family: "Courier Prime", monospace;
 }
-body
-{
-    background-color: rgb(80, 80, 80);
-}
+
 
 h2:hover
 {
     color: red;
 }
-h2
-{
-color: rgb(80, 80,80);
-transition: 1s;
-}
+
 /* button
 {
     color:  rgb(255, 0, 0);
@@ -53,30 +51,38 @@ transition: 1s;
 } */
 .about
 {
-    /* transform: scale(1.5);
-    transition: 1s; */
-    color: rgb(255, 255, 255);
+   
+    color: rgb(255, 0, 0);
     background-color: rgb(0, 0, 0);
-     /* box-shadow: 0 4px 6px rgb(255, 0, 0); */
-     padding: 2% 4%;
-     text-align: center;
-     display: inline-block;
-     border: solid;
-     border-radius: 2%;
+    padding: 2% 4%;
+    text-align: center;
+    display: inline-block;
+    border: solid;
+    border-radius: 2%;
      
 
 }
 .Links
 {
-    /* transform: scale(1.5);
-    transition: 1s */
+
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-     padding: 2% 4%;
-     text-align: center;
-     display: inline-block;
-     border: solid;
-     border-radius: 2%;
+    padding: 2% 4%;
+    text-align: center;
+    display: inline-block;
+    border: solid;
+    border-radius: 2%;
+}
+.Blog
+{
+    
+    color: rgb(117, 0, 121);
+    background-color: rgb(0, 0, 0);
+    padding: 2% 4%;
+    text-align: center;
+    display: inline-block;
+    border: solid;
+    border-radius: 2%;
 }
 button
 {
@@ -87,10 +93,14 @@ p:hover
 {
     color: red;
     transition: 1s;
+  
 }
 p
 {
     color:rgb(80, 80, 80);
+     font-family: "Courier Prime", monospace;
+     font-weight: 700;
+     border: solid red;
 }
 
 a:focus
@@ -105,4 +115,44 @@ a:hover
 {
     color: red;
     transition: 1s;
+}
+h3
+{
+color: rgb(80, 80, 80);
+ font-family: "Courier Prime", monospace;
+}
+
+h3:hover
+{
+    color: red;
+    transition: 1s;
+}
+.FTDT
+{
+    color: red;
+    border: dotted rgb(80, 80, 80);
+    text-align: center;
+}
+
+.blog
+{
+    color: red;
+    text-align: center;
+    border: solid rgb(80, 80, 80);
+}
+.DTI
+{
+    display: flex;
+    justify-content: center;
+}
+#DTI
+{
+width: 50%;
+height: auto;
+
+}
+.DTB
+{
+    color: red;
+    border: 0cap;
 }
